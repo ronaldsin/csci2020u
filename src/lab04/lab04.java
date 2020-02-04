@@ -47,16 +47,17 @@ public class lab04 extends Application {
         main.setConstraints(emailTextField, 1, 3);
 
         Label phonenumLabel = new Label("Phone #:");
-        main.setConstraints(phonenumLabel, 0, 5);
+        main.setConstraints(phonenumLabel, 0, 4);
         TextField phonenumTextField = new TextField ();
         phonenumTextField.setPromptText("Please enter your phone number: ");
-        main.setConstraints(phonenumTextField, 1, 5);
+        main.setConstraints(phonenumTextField, 1, 4);
 
         Label birthdayLabel = new Label("Date of Birth:");
-        main.setConstraints(birthdayLabel, 0, 6);
+        birthdayLabel.setMinWidth(75);
+        main.setConstraints(birthdayLabel, 0, 5);
         DatePicker birthdayDatePicker = new DatePicker();
         birthdayDatePicker.setPromptText("Please enter your birthday: ");
-        main.setConstraints(birthdayDatePicker, 1, 6);
+        main.setConstraints(birthdayDatePicker, 1, 5);
 
         Button btReg = new Button("Register");
         main.setConstraints(btReg, 1, 7);
