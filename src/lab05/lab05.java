@@ -10,9 +10,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import javax.swing.text.TabExpander;
-
-
 public class lab05 extends Application {
     public static void main(String[] args) {
         launch(args);
